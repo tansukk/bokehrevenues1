@@ -14,7 +14,7 @@ from bokeh.models.widgets import Select, Slider, RadioButtonGroup
 from bokeh.layouts import gridplot
 from bokeh.transform import dodge
 
-data = pandas.read_csv("/Users/tansubaktiran1/Dropbox/LEARNING/PYTHON/HOBBY/GURUR_TEST/DATA.csv", sep=",")
+data = pandas.read_csv("DATA/DATA.csv", sep=",")
 
 data = data.dropna()
 
